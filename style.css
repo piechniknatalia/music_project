@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+    background-image: url('./images/tlo.png');
+    background-size: 300px 200px;
+    background-repeat: repeat;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-color: #bc4749;
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #f2e8cf !important;
+    font-weight: 200;
+}
+.navbar-toggler-icon
+{
+    font-size: 25px !important;
+    color: #f2e8cf;
+}
+#footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #bc4749;
+}
+#footer p
+{
+    text-align: center;
+    color: #f2e8cf !important;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+.social-icons
+{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+}
+.social-icons img
+{
+    width: 40px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+.img-piano
+{
+    max-width: 60%;
+    height: auto;
+    background-image: url('./images/tlo.png');
+    background-size: 300px 200px;
+    background-repeat: repeat;
+}
+.logo-home
+{
+    height: 200px;
+    width: 200px;
+    padding-left: 20px;
+}
+.button
+{
+    align-items: center;
+    background-color: #386641;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #f2e8cf;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 200;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+.button:hover,
+.button:focus {
+    background-color: #f2e8cf;
+    color: black;
+}
+
+.button:active {
+    background: #bc4749;
+    color: rgb(255, 255, 255, .7);
+}
+.abouttext
+{
+    color: #f2e8cf !important;
+    font-weight: 200;
+}
+.kiwi-photo
+{
+    background-image: url('./images/kiwi.jpeg');
+    background-size: 400px 400px;
+    background-repeat: repeat;
+}
+.agata-photo
+{
+    background-image: url('./images/agata.jpeg');
+    background-size: 400px 400px;
+    background-repeat: repeat;
+}
+.ralph-photo
+{
+    background-image: url('./images/ralph.jpeg');
+    background-size: 400px 400px;
+    background-repeat: repeat;
+}
+.music-text
+{
+    color: #f2e8cf !important;
+}
+.title
+{
+    color: #f2e8cf !important;
+    font-weight: 200;
+}
+.music-artists
+{
+    font-weight: 200;
+    align-items: center;
+    color: #f2e8cf;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 200;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.music-artists:hover,
+.music-artists:focus {
+    color: #386641;
+    text-decoration: none;
+}
+
+.music-artists:active {
+    background: #bc4749;
+    color: rgb(255, 255, 255, .7);
+    text-decoration: none;
+}
+.contacttext
+{
+    color: #386641 !important;
+    font-weight: 600;
+}
+
+
+
+
